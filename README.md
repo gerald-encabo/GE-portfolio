@@ -1,6 +1,6 @@
 ## Portfolio
 
-This is a Typescript React portfolio webpage, and responsive on all devices. React Hooks, Router, Icons, Sass and Vite are the features that has been used for this project.
+This is a Typescript React portfolio webpage, and responsive on all devices. React Hooks, Router, Icons, Sass, Moment, iTyped, Framer Motion, and Vite are the features & libraries that has been used for this project.
 
 #### Live Site: 
 https://gerald-encabo.github.io/portfolio/
