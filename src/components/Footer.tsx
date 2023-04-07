@@ -5,7 +5,6 @@ import '@/styles/footer.scss';
 const Footer = () => {
 
     return (
-
         <div className='footer'>
             <div className='footer-wrapper'>
                 <div className='footer-container container'>
