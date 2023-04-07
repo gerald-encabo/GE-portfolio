@@ -19,7 +19,7 @@ import { SiJson, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquer
 
 const Resume = () => {
 
-    const currentYear:string =  Moment(new Date()).format("YYYY");
+    const currentYear:string = Moment(new Date()).format("YYYY");
     const yearExp:number = +currentYear - 2018;
 
     return (
