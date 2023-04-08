@@ -1,9 +1,7 @@
-import React from 'react';
 import Moment from 'moment';
 import '@/styles/footer.scss';
 
 const Footer = () => {
-
     return (
         <div className='footer'>
             <div className='footer-wrapper'>

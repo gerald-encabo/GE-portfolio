@@ -1,7 +1,6 @@
-import React from 'react'
 import '@/styles/title.scss'
 
-type TitleProps = {
+interface TitleProps {
     title: string;
 }
 

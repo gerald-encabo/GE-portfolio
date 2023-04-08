@@ -1,7 +1,6 @@
-import React from 'react'
 import '@/styles/categories.scss';
 
-type CategoryProps = {
+interface CategoryProps {
     filter: (category: string) => void;
     categories: string[]
 }

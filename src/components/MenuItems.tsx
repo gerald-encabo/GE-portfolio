@@ -1,8 +1,7 @@
-import React, { Dispatch, SetStateAction } from 'react'
 import '@/styles/menu-items.scss';
-import { ClassType } from '../assets/types/Types';
+import { ClassType } from '@/assets/types/Types';
 
-type MenuItemsProps = {
+interface MenuItemsProps {
     menuItems: ClassType[]
 }
 

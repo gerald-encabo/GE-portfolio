@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import '@/styles/project.scss'
 import Data from '@/assets/data/Data'
 import Header from '@/components/Header'
 import Categories from '@/components/Categories'
 import MenuItems from '@/components/MenuItems'
 import '@/styles/menu-items.scss';
-import { ClassType } from '@/assets/types/Types'
 
 const allCategories: string[] = ['All', ...new Set(Data.map(item => item.category))];
 
