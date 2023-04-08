@@ -1,4 +1,3 @@
-import React from 'react';
 import '@/styles/contact.scss';
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';

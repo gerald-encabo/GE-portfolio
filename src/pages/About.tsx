@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import '@/styles/about.scss';
 import { NavLink } from 'react-router-dom';
 import { init } from 'ityped';

@@ -1,4 +1,4 @@
-import { ClassType } from "../types/Types";
+import { ClassType } from "@/assets/types/Types";
 
 const portfolios: Array<ClassType> = [
     {
