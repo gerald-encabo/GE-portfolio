@@ -93,19 +93,6 @@ const portfolios: Array<ClassType> = [
     },
 
     {
-        id: 2,
-        category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/book-search-app/blob/main/README.md',
-        link2: 'https://gerald-encabo.github.io/book-search-app/',
-        icon1: 'Github',
-        icon2: 'Website',
-        image: '/images/book-search.png',
-        alt: 'Book Seach home page',
-        title: 'Book Search',
-        desc: 'This Book Search React App will demonstrate a simple RESTful API that collects information from Google Books APIs.'
-    },
-
-    {
         id: 3,
         category: 'Personal',
         link1: 'https://github.com/gerald-encabo/restaurant-app/blob/main/README.md',
@@ -118,44 +105,6 @@ const portfolios: Array<ClassType> = [
         desc: 'This React App has multiple components written in styled-components that render into Single Page Application (SPA).'
     },
 
-    {
-        id: 4,
-        category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/travel-app/blob/main/README.md',
-        link2: 'https://gerald-encabo.github.io/travel-app/',
-        icon1: 'Github',
-        icon2: 'Website',
-        image: '/images/travel.png',
-        alt: 'Levart Travel Agency home page',
-        title: 'Levart Travel Agency',
-        desc: 'This Levart Travel Agency React App is fully responsive on all devices including mobile phones and tablets.'
-    },
-
-    {
-        id: 5,
-        category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/cyber-city-comix/blob/main/README.md',
-        link2: 'https://gerald-encabo.github.io/cyber-city-comix/',
-        icon1: 'Github',
-        icon2: 'Website',
-        image: '/images/comix.png',
-        alt: 'Cyber City Comix home page',
-        title: 'Cyber City Comix',
-        desc: 'This is Cyber City Comix react app is a responsive and accessibility-friendly web page.'
-    },
-
-    {
-        id: 9,
-        category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/pizza-app/blob/main/README.md',
-        link2: 'https://github.com/gerald-encabo/pizza-app',
-        icon1: 'Github',
-        icon2: 'Website',
-        image: '/images/pizza-house.png',
-        alt: 'Pizza House home page',
-        title: 'Pizza House',
-        desc: 'Pizza House is a web page based on laravel.'
-    },
 ]
 
 export default portfolios;
