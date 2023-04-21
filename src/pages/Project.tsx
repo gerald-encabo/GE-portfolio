@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState, Suspense } from 'react';
 import '@/styles/project.scss'
 import Data from '@/assets/Data'
 import Header from '@/components/Header'
 import Categories from '@/components/Categories'
 import MenuItems from '@/components/MenuItems'
 import '@/styles/menu-items.scss';
+import Spinner from '@/components/Spinner';
 
 const allCategories: string[] = ['All', ...new Set(Data.map(item => item.category))];
 
@@ -32,9 +33,10 @@ export const Project = () =>  {
             </div>
             <div className='project-container container'>
                 <Categories filter={filter} categories={categories} />
-                <MenuItems menuItems={menuItems} />
+                <Suspense fallback={<Spinner />}>
+                    <MenuItems menuItems={menuItems} />
+                </Suspense>
             </div>
         </div>
     )
-
 }
