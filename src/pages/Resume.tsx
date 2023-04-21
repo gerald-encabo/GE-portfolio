@@ -2,8 +2,6 @@ import Moment from 'moment';
 import '@/styles/resume.scss';
 import Title from '@/components/Title'
 import Header from '@/components/Header'
-import Spinner from '@/components/Spinner';
-import { Suspense } from "react"
 import { ImHtmlFive } from 'react-icons/im'
 import { IoLogoCss3, IoLogoApple } from 'react-icons/io'
 import { BiNotepad } from 'react-icons/bi'
