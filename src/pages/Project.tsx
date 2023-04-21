@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '@/styles/project.scss'
-import Data from '@/assets/data/Data'
+import Data from '@/assets/Data'
 import Header from '@/components/Header'
 import Categories from '@/components/Categories'
 import MenuItems from '@/components/MenuItems'
@@ -8,7 +8,7 @@ import '@/styles/menu-items.scss';
 
 const allCategories: string[] = ['All', ...new Set(Data.map(item => item.category))];
 
-const Project = () =>  {
+export const Project = () =>  {
 
     const [categories, ] = useState<string[]>(allCategories);
     const [menuItems, setMenuItems] = useState<typeof Data>(Data);
@@ -38,5 +38,3 @@ const Project = () =>  {
     )
 
 }
-
-export default Project
