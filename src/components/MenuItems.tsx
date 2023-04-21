@@ -1,9 +1,7 @@
 import '@/styles/menu-items.scss';
-import { ClassType } from '@/assets/types/Types';
-
-interface MenuItemsProps {
-    menuItems: ClassType[]
-}
+import { ClassType, MenuItemsProps } from '@/types/Types';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const MenuItems = ({ menuItems }: MenuItemsProps) => {
     return (
@@ -13,7 +11,13 @@ const MenuItems = ({ menuItems }: MenuItemsProps) => {
                     return <div className='menuitem-list' key={item.id}>
                         <div className='menuitem-tile'>
                             <p className='menuitem-title'>{item.title}</p>
-                            <img src={item.image} alt={item.alt} className='menuitem-img'/>
+                            <LazyLoadImage 
+                                className='menuitem-img'
+                                src={item.image} 
+                                alt={item.alt}
+                                loading="lazy"
+                                effect="blur"
+                            />
                             <ul className='menuitem-link'>
                                 <li>
                                     <a href={item.link1} target="_blank" rel="noreferrer">{item.icon1}</a>

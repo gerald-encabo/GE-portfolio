@@ -1,11 +1,7 @@
 import React from 'react'
 import '@/styles/header.scss'
 import { motion } from "framer-motion";
-
-interface HeaderProps {
-    title: string;
-    desc: string;
-}
+import { HeaderProps} from '@/types/Types';
 
 const Header = ({title, desc}: HeaderProps) => {
     return (

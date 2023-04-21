@@ -1,8 +1,5 @@
 import '@/styles/title.scss'
-
-interface TitleProps {
-    title: string;
-}
+import { TitleProps } from '@/types/Types';
 
 const Title = ({title}: TitleProps) =>  {
     return (

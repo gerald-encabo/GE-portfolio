@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 import Moment from 'moment';
 import { motion } from "framer-motion";
 
-const About = () =>  {
+export const About = () =>  {
 
     const textRef = useRef<any>();
     const currentYear:string = Moment(new Date()).format("YYYY");
@@ -87,5 +87,3 @@ const About = () =>  {
         </div>
     )
 }
-
-export default About

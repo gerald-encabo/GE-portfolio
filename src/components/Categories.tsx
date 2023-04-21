@@ -1,11 +1,7 @@
 import '@/styles/categories.scss';
+import { CategoryProps } from '@/types/Types'; 
 
-interface CategoryProps {
-    filter: (category: string) => void;
-    categories: string[]
-}
-
-const Categories = ({filter, categories}: CategoryProps) => {
+export const Categories = ({filter, categories}: CategoryProps) => {
     return (
         <div className='categories'>
             {

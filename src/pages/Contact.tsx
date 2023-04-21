@@ -4,7 +4,7 @@ import { GrMail } from 'react-icons/gr';
 import Title from '@/components/Title'; 
 import Header from '@/components/Header';
 
-const Contact = () =>  {
+export const Contact = () =>  {
     return (
         <div className='contact'>
             <div className='contact-wrapper container'>
@@ -44,5 +44,3 @@ const Contact = () =>  {
         </div>
     )
 }
-
-export default Contact
