@@ -15,7 +15,6 @@ import { SiJson, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquer
          SiAdobephotoshop, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftoutlook, SiMicrosoftteams, 
          SiMicrosoftpowerpoint, SiOpera, SiSafari, SiMicrosoftedge, SiExpress } from 'react-icons/si'
 
-
 export const Resume = () => {
 
     const currentYear:string = Moment(new Date()).format("YYYY");

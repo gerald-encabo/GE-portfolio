@@ -15,7 +15,7 @@ const MenuItems = ({ menuItems }: MenuItemsProps) => {
                                 className='menuitem-img'
                                 src={item.image} 
                                 alt={item.alt}
-                                loading="lazy"
+                               
                                 effect="blur"
                             />
                             <ul className='menuitem-link'>
