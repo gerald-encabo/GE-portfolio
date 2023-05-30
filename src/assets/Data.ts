@@ -67,6 +67,19 @@ const portfolios: Array<ClassType> = [
     }, 
 
     {
+        id: 3,
+        category: 'Personal',
+        link1: 'https://github.com/gerald-encabo/ramen-house#readme',
+        link2: 'https://ramen-house.vercel.app/',
+        icon1: 'Github',
+        icon2: 'Website',
+        image: '/images/ramen-house.jpg',
+        alt: 'Ramen House home page',
+        title: 'Ramen House',
+        desc: 'This responsive eCommerce webpage is focusing on Front-End food industry Ramen or Japanese Noodle soup. This is Single Page Application (SPA) with multiple components in Hooks, and it also have redux featured which use in add, remove and delete item into the shopping cart.'
+    },
+
+    {
         id: 12,
         category: 'Personal',
         link1: 'https://github.com/gerald-encabo/velopro-online-food-ordering/blob/main/README.md',
@@ -90,19 +103,6 @@ const portfolios: Array<ClassType> = [
         alt: 'Guardian home page',
         title: 'Guardian',
         desc: 'This Guardian Credit Card React App is responsive on all devices with multiple pages and components.'
-    },
-
-    {
-        id: 3,
-        category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/ramen-house#readme',
-        link2: 'https://ramen-house.vercel.app/',
-        icon1: 'Github',
-        icon2: 'Website',
-        image: '/images/ramen-house.jpg',
-        alt: 'Ramen House home page',
-        title: 'Ramen House',
-        desc: 'This responsive eCommerce webpage is focusing on Front-End food industry Ramen or Japanese Noodle soup. This is Single Page Application (SPA) with multiple components in Hooks, and it also have redux featured which use in add, remove and delete item into the shopping cart.'
     }
 ]
 
