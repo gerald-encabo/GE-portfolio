@@ -95,16 +95,15 @@ const portfolios: Array<ClassType> = [
     {
         id: 3,
         category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/restaurant-app/blob/main/README.md',
-        link2: 'https://gerald-encabo.github.io/restaurant-app/',
+        link1: 'https://github.com/gerald-encabo/ramen-house#readme',
+        link2: 'https://ramen-house.vercel.app/',
         icon1: 'Github',
         icon2: 'Website',
-        image: '/images/ramen.png',
+        image: '/images/ramen-house.jpg',
         alt: 'Ramen House home page',
         title: 'Ramen House',
-        desc: 'This React App has multiple components written in styled-components that render into Single Page Application (SPA).'
-    },
-
+        desc: 'This responsive eCommerce webpage is focusing on Front-End food industry Ramen or Japanese Noodle soup. This is Single Page Application (SPA) with multiple components in Hooks, and it also have redux featured which use in add, remove and delete item into the shopping cart.'
+    }
 ]
 
 export default portfolios;
