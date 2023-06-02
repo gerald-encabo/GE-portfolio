@@ -64,7 +64,7 @@ export const About = () =>  {
                                     <GrFacebook className="logo-size"/>
                                 </div>
                             </a>
-                            <a href="https://www.instagram.com/imgeeerald/" title="Instagram" target="_blank" rel="noreferrer">
+                            <a href="https://www.instagram.com/iamgeerald/" title="Instagram" target="_blank" rel="noreferrer">
                                 <div className="about-section-two-container">
                                     <SiInstagram className="logo-size"/>
                                 </div>
