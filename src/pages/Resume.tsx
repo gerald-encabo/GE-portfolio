@@ -7,13 +7,13 @@ import { IoLogoCss3, IoLogoApple } from 'react-icons/io'
 import { BiNotepad } from 'react-icons/bi'
 import { BsGithub } from 'react-icons/bs'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
-import { DiDotnet, DiCodeBadge, DiGoogleAnalytics } from 'react-icons/di'
+import { DiDotnet, DiGoogleAnalytics } from 'react-icons/di'
 import { FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs, FaTrello, FaJava } from 'react-icons/fa'
 import { SiJson, SiTypescript, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
          SiJavascript, SiWindows, SiVisualstudio, SiAtom, SiSublimetext, SiMongodb, SiMicrosoftsqlserver,
-         SiRedux, SiAndroidstudio, SiFirebase, SiHeroku, SiVercel, SiAdobedreamweaver, SiAdobexd,
+         SiRedux, SiHeroku, SiVercel, SiAdobedreamweaver, SiAdobexd, SiSafari, SiMicrosoftedge, SiExpress,
          SiAdobephotoshop, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftoutlook, SiMicrosoftteams, 
-         SiMicrosoftpowerpoint, SiOpera, SiSafari, SiMicrosoftedge, SiExpress } from 'react-icons/si'
+         SiMicrosoftpowerpoint, SiOpera } from 'react-icons/si'
 
 export const Resume = () => {
 
@@ -180,8 +180,7 @@ export const Resume = () => {
                                     <div className="skills-icon"><SiVisualstudio className="logo-size"/>Visual Studio</div>
                                     <div className="skills-icon"><BiNotepad className="logo-size"/>Notepad++</div>
                                     <div className="skills-icon"><SiAtom className="logo-size"/>Atom</div>
-                                    <div className="skills-icon"><SiSublimetext className="logo-size"/>Sublime Text</div>
-                                    <div className="skills-icon"><SiAndroidstudio className="logo-size"/>Android Studio</div>
+                                    <div className="skills-icon"><SiSublimetext className="logo-size"/>Sublime Text</div>                        
                             </div> 
                             </div>
                         </div>
@@ -192,7 +191,6 @@ export const Resume = () => {
                                     <div className="skills-icon"><DiGoogleAnalytics className="logo-size"/>Google Analytics</div>
                                     <div className="skills-icon"><BsGithub className="logo-size"/>Github</div>
                                     <div className="skills-icon"><FaTrello  className="logo-size"/>Trello</div>
-                                    <div className="skills-icon"><SiFirebase className="logo-size"/>Firebase</div>
                                     <div className="skills-icon"><SiHeroku className="logo-size"/>Heroku</div>
                                     <div className="skills-icon"><SiVercel  className="logo-size"/>Vercel</div>
                             </div> 
