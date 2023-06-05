@@ -8,10 +8,10 @@ import { BiNotepad } from 'react-icons/bi'
 import { BsGithub } from 'react-icons/bs'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
 import { DiDotnet, DiCodeBadge, DiGoogleAnalytics } from 'react-icons/di'
-import { FaLinux, FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs, FaLaravel, FaTrello, FaJava } from 'react-icons/fa'
-import { SiJson, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
+import { FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs, FaTrello, FaJava } from 'react-icons/fa'
+import { SiJson, SiTypescript, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
          SiJavascript, SiWindows, SiVisualstudio, SiAtom, SiSublimetext, SiMongodb, SiMicrosoftsqlserver,
-         SiRedux, SiAndroidstudio, SiUbuntu, SiFirebase, SiHeroku, SiVercel, SiAdobedreamweaver, SiAdobexd,
+         SiRedux, SiAndroidstudio, SiFirebase, SiHeroku, SiVercel, SiAdobedreamweaver, SiAdobexd,
          SiAdobephotoshop, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftoutlook, SiMicrosoftteams, 
          SiMicrosoftpowerpoint, SiOpera, SiSafari, SiMicrosoftedge, SiExpress } from 'react-icons/si'
 
@@ -140,13 +140,12 @@ export const Resume = () => {
                             <div className='resume-section-two-left'>
                                 <Title title={'Programming/Languages'}/>
                                 <div className="skills-container">
-                                    <div className="skills-icon"><ImHtmlFive className="logo-size"/>HTML</div>
-                                    <div className="skills-icon"><IoLogoCss3 className="logo-size"/>CSS</div>
+                                    <div className="skills-icon"><ImHtmlFive className="logo-size"/>HTML5</div>
+                                    <div className="skills-icon"><IoLogoCss3 className="logo-size"/>CSS3</div>
                                     <div className="skills-icon"><SiSass className="logo-size"/>Sass</div>
                                     <div className="skills-icon"><SiJavascript className="logo-size"/>JavaScript</div>
+                                    <div className="skills-icon"><SiTypescript className="logo-size"/>TypeScript</div>
                                     <div className="skills-icon"><SiJson className="logo-size"/>Json</div>
-                                    <div className="skills-icon"><DiCodeBadge className="logo-size"/>XML</div>
-                                    <div className="skills-icon"><SiPython className="logo-size"/>Python</div>
                                     <div className="skills-icon"><FaJava className="logo-size"/>Java</div>
                                 </div>            
                             </div>
@@ -157,7 +156,6 @@ export const Resume = () => {
                                     <div className="skills-icon"><SiJquery className="logo-size"/>Jquery</div>
                                     <div className="skills-icon"><SiReact className="logo-size"/>React.js</div>
                                     <div className="skills-icon"><SiExpress className="logo-size"/>Express.js</div>
-                                    <div className="skills-icon"><FaLaravel className="logo-size"/>Laravel</div>
                                     <div className="skills-icon"><DiDotnet className="logo-size"/>ASP.Net</div>
                                     <div className="skills-icon"><SiRedux className="logo-size"/>Redux</div>
                             </div> 
@@ -230,8 +228,6 @@ export const Resume = () => {
                                 <div className="skills-container">
                                     <div className="skills-icon"><SiWindows className="logo-size"/>Windows</div>
                                     <div className="skills-icon"><IoLogoApple className="logo-size"/>MacOS</div>
-                                    <div className="skills-icon"><FaLinux className="logo-size"/>Linux</div>
-                                    <div className="skills-icon"><SiUbuntu className="logo-size"/>Ubuntu</div>
                                 </div>    
                             </div>
                         </div>      
