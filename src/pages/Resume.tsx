@@ -50,7 +50,7 @@ export const Resume = () => {
                                                     <li>	Performed A/B testing using Adobe Target on the e-commerce site to maximize the user experience and increase conversion rates optimization </li>
                                                     <li>	Task tracking assigned projects and UI tickets issues using Trello software </li>
                                                     <li>	Participated in team code reviews for product release </li>
-                                                    <li>	Project Technology Stack: HTML5, CSS3, JavaScript (Vanilla & ES6), Bootstrap5, Sass, jQuery, React, JEST, JSON, Redux, ASP.NET (Razor), GitHub, Visual Studio, Figma, Monetate, Google Analytics, Contentstack (CMS) </li>
+                                                    <li>	Project Technology Stack: HTML5, CSS3, JavaScript (Vanilla & ES6), Bootstrap5, Sass, jQuery, React, JEST, JSON, Redux, ASP.NET (Razor), GitHub, Visual Studio, Figma, Monetate, Adobe Launch & Target, Contentstack (CMS) </li>
                                                 </ul>
                                             </p>
                                         </div>
