@@ -84,6 +84,7 @@ export const Resume = () => {
                                                 <li> Track web performance and workflow using the build-in Analytics data feature in Axero Solutions Technology </li>
                                                 <li> Used of Front-End languages and frameworks such as HTML, CSS, JavaScript, and Bootstrap for webpage design, and layout </li>
                                                 <li> Architected website structure templates using GlooMaps, and presented a UX design for the home page using Figma </li>
+                                                <li> Cropped and compressed the size of the image to improve web page performance, specifically for mobile and tablet devices </li>
                                                 <li> Granted access accounts to students and employees on specific web spaces and pages </li>
                                                 <li> Performed extensive testing to ensure content consistency and responsiveness across all devices and different browsers </li>
                                                 <li> Managed the intranet workflow queue for content publishing to the different environments (develop, staging & production) </li>
