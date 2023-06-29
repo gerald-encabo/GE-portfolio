@@ -42,7 +42,7 @@ const portfolios: Array<ClassType> = [
 
     {
         id: 6,
-        category: 'Professional',
+        category: 'Co-op',
         link1: 'https://github.com/gerald-encabo/seneca-college-employee-portal/blob/main/README.md',
         link2: 'https://employees.senecacollege.ca/',
         icon1: 'Github',
@@ -69,8 +69,8 @@ const portfolios: Array<ClassType> = [
     {
         id: 3,
         category: 'Personal',
-        link1: 'https://github.com/gerald-encabo/ramen-house#readme',
-        link2: 'https://ramen-house.vercel.app/',
+        link1: 'https://github.com/gerald-encabo/ramen-house-restaurant/blob/main/README.md',
+        link2: 'https://ramen-house-restaurant.vercel.app/',
         icon1: 'Github',
         icon2: 'Website',
         image: '/images/ramen-house.jpg',
