@@ -9,7 +9,7 @@ import { BsGithub } from 'react-icons/bs'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
 import { DiDotnet, DiGoogleAnalytics } from 'react-icons/di'
 import { FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs, FaTrello, FaJava } from 'react-icons/fa'
-import { SiJson, SiTypescript, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
+import { SiJson, SiTypescript, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
          SiJavascript, SiWindows, SiVisualstudio, SiAtom, SiSublimetext, SiMongodb, SiMicrosoftsqlserver,
          SiRedux, SiHeroku, SiVercel, SiAdobedreamweaver, SiAdobexd, SiSafari, SiMicrosoftedge, SiExpress,
          SiAdobephotoshop, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftoutlook, SiMicrosoftteams, 
@@ -199,7 +199,6 @@ export const Resume = () => {
                                     <div className="skills-icon"><SiMysql className="logo-size"/>MySQL</div>
                                     <div className="skills-icon"><SiMicrosoftsqlserver className="logo-size"/>SQL Server</div>
                                     <div className="skills-icon"><FaDatabase className="logo-size"/>NoSQL</div>
-                                    <div className="skills-icon"><SiPhp className="logo-size"/>PHP</div>
                                     <div className="skills-icon"><FaNodeJs className="logo-size"/>NodeJS</div>
                                     <div className="skills-icon"><SiMongodb className="logo-size"/>MongoDB</div>
                                 </div>            
