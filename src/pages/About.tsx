@@ -13,7 +13,7 @@ export const About = () =>  {
 
     const textRef = useRef<any>();
     const currentYear:string = Moment(new Date()).format("YYYY");
-    const yearExp:number = +currentYear - 2017;
+    const yearExp:number = +currentYear - 2018;
 
     useEffect(() => {
         init(textRef.current, {
