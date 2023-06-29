@@ -99,23 +99,23 @@ export const Resume = () => {
                                             <p className='college'><span>2017</span> Seneca College</p>
                                             <h4 className='program'>Web Specialist (co-op)</h4>
                                             <p className='desc'>
-                                            <ul>
-                                                <li> Created and updated web space and landing pages using build-in widgets in Intranet Software - Axero Solutions </li>
-                                                <li> Collaborated with clients about the structure of landing page, and page content for specific departments and faculties </li>
-                                                <li> Provided direct assistance and tutorials with the page administrators on developing and updating their respective intranet spaces </li>
-                                                <li> Maintained and updated existing web spaces and contents including images, videos, links, file attachment, and marketing banners </li>
-                                                <li> Track web performance and workflow using the build-in Analytics data feature in Axero Solutions Technology </li>
-                                                <li> Used of Front-End languages and frameworks such as HTML, CSS, JavaScript, and Bootstrap for the intranet homepage and landing pages </li>
-                                                <li> Architected website structure templates using GlooMaps, and presented a UX design for the home page using Figma </li>
-                                                <li> Cropped and compressed the size of the images to improve load page performance for mobile and tablet devices </li>
-                                                <li> Granted access accounts to students and employees on specific web spaces and pages </li>
-                                                <li> Performed extensive testing to ensure content consistency and responsiveness across all devices and different browsers </li>
-                                                <li> Managed the intranet workflow queue for content publishing to the different environments (staging & production) </li>
-                                                <li> Validated and review all content that before goes to the publishing stage or live environment </li>
-                                                <li> Reviewed digital content (files, images, videos, etc.) on the asset platform to validate if it meets objectives & standards </li>
-                                                <li> Provided feedback to content creators / authors and ask for clarifications whenever there are questions prior to publishing </li>
-                                                <li> Technology used: HTML5, CSS3, JavaScript (ES6), Bootstrap5, jQuery, GitHub, Figma, GlooMaps, Axero Solution Technology (CMS) </li>
-                                            </ul>
+                                                <ul>
+                                                    <li> Created and updated web space and landing pages using build-in widgets in Intranet Software - Axero Solutions </li>
+                                                    <li> Collaborated with clients about the structure of landing page, and page content for specific departments and faculties </li>
+                                                    <li> Provided direct assistance and tutorials with the page administrators on developing and updating their respective intranet spaces </li>
+                                                    <li> Maintained and updated existing web spaces and contents including images, videos, links, file attachment, and marketing banners </li>
+                                                    <li> Track web performance and workflow using the build-in Analytics data feature in Axero Solutions Technology </li>
+                                                    <li> Used of Front-End languages and frameworks such as HTML, CSS, JavaScript, and Bootstrap for the intranet homepage and landing pages </li>
+                                                    <li> Architected website structure templates using GlooMaps, and presented a UX design for the home page using Figma </li>
+                                                    <li> Cropped and compressed the size of the images to improve load page performance for mobile and tablet devices </li>
+                                                    <li> Granted access accounts to students and employees on specific web spaces and pages </li>
+                                                    <li> Performed extensive testing to ensure content consistency and responsiveness across all devices and different browsers </li>
+                                                    <li> Managed the intranet workflow queue for content publishing to the different environments (staging & production) </li>
+                                                    <li> Validated and review all content that before goes to the publishing stage or live environment </li>
+                                                    <li> Reviewed digital content (files, images, videos, etc.) on the asset platform to validate if it meets objectives & standards </li>
+                                                    <li> Provided feedback to content creators / authors and ask for clarifications whenever there are questions prior to publishing </li>
+                                                    <li> Technology used: HTML5, CSS3, JavaScript (ES6), Bootstrap5, jQuery, GitHub, Figma, GlooMaps, Axero Solution Technology (CMS) </li>
+                                                </ul>
                                             </p>
                                         </div>
                                         <div className='education-info-layer-three'>
