@@ -29,7 +29,7 @@ const portfolios: Array<ResumeType> = [
             'Extensively used Git for version controlling and regularly used Github for pushing and maintaining code in repositories',
             'Participated in day-to-day stand-up meetings along with the IT team and stakeholders to keep track of the project status',
             'Worked closely with the back-end team during product release to ensure smooth deployment in staging and production',
-            'Performed extensive unit tests using JEST for all components to ensure consistency, identify issues, and improve UI across all devices and different browsers',
+            'Performed extensive unit tests using React Testing Library and Jest for all components to ensure consistency, identify issues, and improve UI across all devices and different browsers',
             'Technology used: HTML5, CSS3, JavaScript (ES6), TypeScript, Bootstrap5, SASS, jQuery, React, Redux, REST APIs, JEST, ASP.NET, GitHub, Visual Studio, Figma, Trello, AWS, Monetate, Adobe Launch, Contentstack (CMS)',
         ]
     },
