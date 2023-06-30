@@ -1,9 +1,9 @@
 import { useState } from "react"
 import AccordionItem from "./AccordionItem"
-import { ResumeType } from "@/types/Types"
+import { AccordionProps } from "@/types/Types"
 import '@/styles/accordion.scss'
 
-const Accordion = ({ data, type }: { data: Array<ResumeType>, type: string } ) => {
+const Accordion = ({ data, type } : AccordionProps) => {
 
   const [currentIdx, setCurrentIdx] = useState(-1);
   const btnOnClick = (idx: number) => {

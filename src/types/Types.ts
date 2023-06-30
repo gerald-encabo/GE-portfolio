@@ -43,3 +43,15 @@ export interface LocationState {
       pathname: string;
     };
 }
+
+export interface AccordionProps {
+    data: Array<ResumeType>
+    type: string
+}
+
+export interface AccordionItemProps {
+    data: ResumeType, 
+    type: string, 
+    key: number, 
+    isOpen: boolean, btnOnClick: () => void
+}

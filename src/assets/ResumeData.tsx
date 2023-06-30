@@ -66,7 +66,6 @@ const portfolios: Array<ResumeType> = [
             'Responsible for debugging, analyzing, and fixing all the code-related issues on the front end that arise out of the production systems',
             'Tested code changes in Development, QA, and Stage environments thoroughly before going to production',
             'Technology used: HTML5, CSS3, JavaScript (ES6), Bootstrap5, Ajax, jQuery, Sass, React, JSON, REST APIs, Agile (Scrum), Postman, Java, Servlets, JSP, XML, Apache Sling, Git, Visual Studio, Adobe Experience Manager (CMS), OpenCMS, Adobe (Target, Tag, Launch, Photoshop, Analytics) Google Analytics, SiteImprove (Web Accessibility & QA testing)',
-
         ]
     },
     {
