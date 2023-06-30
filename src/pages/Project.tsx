@@ -1,6 +1,6 @@
 import { useState, Suspense } from 'react';
 import '@/styles/project.scss'
-import Data from '@/assets/Data'
+import Data from '@/assets/ProjectData'
 import Header from '@/components/Header'
 import Categories from '@/components/Categories'
 import MenuItems from '@/components/MenuItems'

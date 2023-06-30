@@ -1,5 +1,5 @@
 import '@/styles/menu-items.scss';
-import { ClassType, MenuItemsProps } from '@/types/Types';
+import { ProjectType, MenuItemsProps } from '@/types/Types';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -7,7 +7,7 @@ const MenuItems = ({ menuItems }: MenuItemsProps) => {
     return (
         <div className='menuitem'>
             {
-                menuItems.map((item: ClassType) => {   
+                menuItems.map((item: ProjectType) => {   
                     return <div className='menuitem-list' key={item.id}>
                         <div className='menuitem-tile'>
                             <p className='menuitem-title'>{item.title}</p>
