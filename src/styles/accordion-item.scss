@@ -1,0 +1,53 @@
+@import "media-queries.scss";
+@import "color.scss";
+
+  .accordion-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid $fontColor;
+  }
+  
+  .accordion-item:not(:first-of-type) {
+    border-top: 0;
+    padding-bottom: 10px;
+  }
+  
+  .accordion-item-title {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .accordion-item-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: $darkBackgroundColor;
+    color: $lightColor;
+    border: 0;
+    padding: 0px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 30px;
+  }
+  
+  .accordion-item-btn::after {
+    content: '';
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 -4.5 20 20' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' fill='%23f7f7f7' stroke='%23f7f7f7'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round' stroke='%23CCCCCC' stroke-width='0.76'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Ctitle%3Earrow_up %5B%23f7f7f7%5D%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Dribbble-Light-Preview' transform='translate(-140.000000, -6683.000000)' fill='%23f7f7f7'%3E%3Cg id='icons' transform='translate(56.000000, 160.000000)'%3E%3Cpath d='M84,6532.61035 L85.4053672,6534 L94.0131154,6525.73862 L94.9311945,6526.61986 L94.9261501,6526.61502 L102.573446,6533.95545 L104,6532.58614 C101.8864,6530.55736 95.9854722,6524.89321 94.0131154,6523 C92.5472155,6524.40611 93.9757869,6523.03486 84,6532.61035' id='arrow_up-%5B%23f7f7f7%5D'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .accordion-item.active .accordion-item-btn::after {
+    transform: rotate(-180deg);
+  }
+  
+  .accordion-item-container {
+    transition: height 0.2s ease-in-out;
+    overflow: hidden;
+  }

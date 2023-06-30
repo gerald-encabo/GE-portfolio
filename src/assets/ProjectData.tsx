@@ -1,6 +1,6 @@
-import { ClassType } from "@/types/Types";
+import { ProjectType } from "@/types/Types";
 
-const portfolios: Array<ClassType> = [
+const portfolios: Array<ProjectType> = [
     {
         id: 10,
         category: 'Professional',
@@ -70,7 +70,7 @@ const portfolios: Array<ClassType> = [
         id: 3,
         category: 'Personal',
         link1: 'https://github.com/gerald-encabo/ramen-house-restaurant/blob/main/README.md',
-        link2: 'https://ramen-house-restaurant.vercel.app/',
+        link2: 'https://ramen-house.vercel.app/',
         icon1: 'Github',
         icon2: 'Website',
         image: '/images/ramen-house.jpg',

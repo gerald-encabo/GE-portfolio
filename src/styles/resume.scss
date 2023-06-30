@@ -53,8 +53,6 @@
     .education-info-layer-three {
         margin-left: 10px;
         margin-bottom: 20px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid $fontColor;
 
         .college, .work {
             margin-left: -35px;
@@ -77,11 +75,15 @@
             margin: 20px 0;
             font-size: 18px;
             font-weight: 500;
+            background-color: $darkBackgroundColor;
         }
         .desc {
             color: $fontColor;
             font-size: 18px;
             font-weight: 300;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
             li {
                 margin-left: 20px;
                 list-style: none;

@@ -1,4 +1,4 @@
-export interface ClassType {
+export interface ProjectType {
     id: number,
     category: string,
     link1: string,
@@ -11,12 +11,21 @@ export interface ClassType {
     desc: string
 }
 
+export interface ResumeType {
+    id: number
+    type: string
+    year: string,
+    companyName: string,
+    title: string,
+    desc: string[]
+}
+
 export interface TitleProps {
     title: string;
 }
 
 export interface MenuItemsProps {
-    menuItems: ClassType[]
+    menuItems: ProjectType[]
 }
 
 export interface HeaderProps {
