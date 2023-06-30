@@ -13,7 +13,6 @@ const portfolios: Array<ProjectType> = [
         title: 'Grand & Toy',
         desc: 'Grand & Toy newly home page.'
     },
-
     {
         id: 11,
         category: 'Professional',
@@ -26,7 +25,6 @@ const portfolios: Array<ProjectType> = [
         title: 'Grand & Toy Success Centre',
         desc: 'Grand & Toy Success Centre home page.'
     },
-
     {
         id: 7,
         category: 'Professional',
@@ -39,7 +37,6 @@ const portfolios: Array<ProjectType> = [
         title: 'Seneca College',
         desc: 'This is Seneca College main page, which I have work during my co-op and contract during work experience with Seneca.'
     },     
-
     {
         id: 6,
         category: 'Co-op',
@@ -52,7 +49,6 @@ const portfolios: Array<ProjectType> = [
         title: 'Seneca College (employee-portal)',
         desc: 'This Seneca employee webpage is a contract project that I have work with Seneca after I graduated.'
     },
-
     {
         id: 8,
         category: 'Co-op',
@@ -65,7 +61,6 @@ const portfolios: Array<ProjectType> = [
         title: 'Seneca College (student-portal)',
         desc: 'This Seneca College student intranet, and this extend to Employee Intranet project.'
     }, 
-
     {
         id: 3,
         category: 'Personal',
@@ -78,7 +73,6 @@ const portfolios: Array<ProjectType> = [
         title: 'Ramen House',
         desc: 'This responsive eCommerce webpage is focusing on Front-End food industry Ramen or Japanese Noodle soup. This is Single Page Application (SPA) with multiple components in Hooks, and it also have redux featured which use in add, remove and delete item into the shopping cart.'
     },
-
     {
         id: 12,
         category: 'Personal',
@@ -91,7 +85,6 @@ const portfolios: Array<ProjectType> = [
         title: 'VeloPro',
         desc: 'This VeloPro Online Food Delivery React App with variety of foods of choices'
     },
-
     {
         id: 1,
         category: 'Personal',
