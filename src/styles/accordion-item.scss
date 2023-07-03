@@ -3,7 +3,6 @@
 
   .accordion-item {
     margin-bottom: 30px;
-    border-bottom: 1px solid $fontColor;
   }
   
   .accordion-item:not(:first-of-type) {
@@ -14,13 +13,13 @@
   .accordion-item-title {
     width: 100%;
     margin: 0;
+    border-bottom: 1px solid $fontColor;
   }
   
   .accordion-item-btn {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: $darkBackgroundColor;
     color: $lightColor;
     border: 0;
     padding: 0px 20px;
